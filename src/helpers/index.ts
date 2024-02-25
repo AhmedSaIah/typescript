@@ -1,10 +1,10 @@
 import crypto from "crypto";
-const SECRET = "rox";
+require('dotenv').config();
 
 export const random = () => crypto.randomBytes(128).toString("base64");
 export const authentication = (salt: string, password: string) => {
   return crypto
     .createHmac("sha256", [salt, password].join("/"))
-    .update(SECRET)
+    .update(process.env.CRYPT_SECRET)
     .digest("hex");
 };
