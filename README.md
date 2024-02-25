@@ -32,4 +32,4 @@ Before you begin, ensure you have the following installed on your machine:
 5. Start the server:
    
   ```bash
-  npm start
+     npm start
