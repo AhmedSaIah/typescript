@@ -22,14 +22,14 @@ Before you begin, ensure you have the following installed on your machine:
    ```bash
    cd typescript
    
-4. Install dependencies:
+3. Install dependencies:
    
    ```bash
    npm install
 
-6. Configure environment variables
+4. Configure environment variables
 
-7. Start the server:
+5. Start the server:
    
   ```bash
   npm start
